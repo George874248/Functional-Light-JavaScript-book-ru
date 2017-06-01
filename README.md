@@ -2,13 +2,13 @@
 
 В этой книге рассматриваются основные принципы функционального программирования (FP) т.к. это приминимо в JavaScript. Книга особенна тем, что мы узнаем принципы без глубокого погружения в терминологию. Мы рассматриваем подмножество основополагающих концепций FP, которые я называю «Functional-Light Programming» (FLP) и применяю его к JavaScript.
 
-**Note:** Despite the word "Light" in the title, I do not consider or recommend this book as a "beginner", "easy", or "intro" book on the topic. This book is rigorous and full of gritty detail; it expects a solid foundation of JS knowledge before diving in. "Light" means limited in scope; instead of being more broad, this book goes much deeper into each topic than you typically find in other FP-JavaScript books.
+**На заметку:** Несмотря на слово «Light» в названии, я не рассматриваю или не рекомендую эту книгу для начинающих. Книга кишит деталями и мелкими подробностями; она требует отличных знаний JavaScript для ее понимания. "Light" означает ограниченный объем; вместо того чтобы быть многословной, эта книга дойдет до самых корней тех тем, которые вы могли бы найти в других книгах FP-JavaScript
 
-Let's face it: unless you're already a member of the FP cool kids club (I'm not!), a statement like, "a monad is just a monoid in the category of endofunctors", just doesn't mean anything useful to us.
+Давайте на чистоту: если вы уже не являетесь членом крутого детского клуба FP (я нет!), Выражение вроде: «Монада - всего лишь моноид в категории эндофунторов», не означает что оно бесполезно для нас.
 
-That's not to say the terms are meaning*less* or that FPrs are bad for using them. Once you graduate from Functional-Light, you'll maybe/hopefully want to study FP more formally, and you'll certainly have plenty of exposure to what they mean and why.
+That's not to say the terms are meaning less or that FPrs are bad for using them. Once you graduate from Functional-Light, you'll maybe/hopefully want to study FP more formally, and you'll certainly have plenty of exposure to what they mean and why.
 
-But I want you to be able to apply some of the fundamentals of FP to your JavaScript *now*, because I believe it will help you write better, more *reason*able code.
+But I want you to be able to apply some of the fundamentals of FP to your JavaScript *now*, because I believe it will help you write better, more reasonable code.
 
 **To read more about the motivations and perspective behind this book, check out the [Preface](preface.md).**
 
