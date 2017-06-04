@@ -12,11 +12,11 @@
 
 ## Книга
 
-[Table of Contents](toc.md)
+[Содержание](toc.md)
 
 * [Foreword](foreword.md) (by [Brian Lonsdorf aka "Prof Frisby"](https://twitter.com/DrBoolean))
 * [Preface](preface.md)
-* [Chapter 1: Why Functional Programming?](ch1.md)
+* [Chapter 1: Почему Функциональное программирование?](ch1.md)
 * [Chapter 2: Foundations of Functional Functions](ch2.md)
 * [Chapter 3: Managing Function Inputs](ch3.md)
 * [Chapter 4: Composing Functions](ch4.md)
