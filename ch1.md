@@ -46,9 +46,9 @@ FP (по крайней мере, без учета всей терминоло�
 
 ### Кривая читабельности
 
-It's really important I take a moment to call out a phenomena that has derailed and frustrated me many times over the years, and was especially acute while writing this book.
+Это действительно важно, я воспользуюсь моментом чтобы вызвать явление, которое на протяжение многих лет меня расстраивало, и особенно остро стояло при написании этой книги.
 
-I also think it's probably something that many developers have a tendency to run into. You, dear reader, may just find yourself in this same boat as you work through this text. But take heart; if you stick this out, the curve comes back.
+Также я думаю, что это, вероятно, то, с чем многие разработчики сталкиваются. Вы, дорогой читатель, можете просто оказаться в той же лодке, читая этот текст. Соберитесь; Если вы удержитесь, кривая вернется.
 
 <p align="center">
 	<img src="fig17.png" width="600">
