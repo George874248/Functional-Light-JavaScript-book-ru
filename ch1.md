@@ -44,7 +44,7 @@ I believe the techniques that form the foundation of FP are designed from the mi
 
 FP (по крайней мере, без учета всей терминологии) является одним из наиболее эффективных инструментов для написания читаемого кода. Вот почему это так важно.
 
-### Readability Curve
+### Кривая читабельности
 
 It's really important I take a moment to call out a phenomena that has derailed and frustrated me many times over the years, and was especially acute while writing this book.
 
