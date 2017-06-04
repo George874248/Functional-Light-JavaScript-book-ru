@@ -22,27 +22,27 @@
 Я считаю, что методы, составляющие основу FP, сделаны таким образом, 
 I believe the techniques that form the foundation of FP are designed from the mindset of having far more confidence over our programs just by reading them. Someone who understands FP, and who diligently uses it in their programs, will write code that they can read and verify, by the principles they have already proven to be true, that the program will do what they want.
 
-It is my hope that you will begin to develop more confidence in the code you write, and that these functional-light programming principles will begin your journey in that direction.
+Я надеюсь, что вы начнете проявлять больше уверенности в написании кода, и что эти принципы программирования функционального света начнут ваше путешествие в этом направлении.
 
-## Communication
+## Связь
 
-Why is functional programming important? To answer that, we need to take a bigger step back and talk about why programming itself is important.
+Почему функциональное программирование важно? Чтобы ответить на это, нам нужно сделать больший шаг назад и поговорить о том, почему важно само программирование.
 
-It may surprise you to hear this, but I don't believe that code is primarily a set of instructions for the computer. As a matter of fact, I think the fact that code instructs the computer is almost a happy accident.
+Возможно вы удивитесь, но я не считаю, что код - это прежде всего набор инструкций для компьютера. На самом деле, я думаю, что тот факт, что код инструктирует компьютер, - это почти счастливая случайность.
 
-I believe very deeply that the vastly more important role of code is as a means of communication with other human beings.
+Я очень глубоко убежден, что гораздо более важная роль кода - это средство общения с другими людьми.
 
-You probably know by experience that an awful lot of your time spent "coding" is actually spent reading existing code. Very few of us are so privileged as to spend all or most of our time simply banging out all new code and never dealing with code that others (or our past selves) wrote.
+Вероятно, по опыту вы знаете, что ужасно много времени, потраченное на «написание кода», фактически потрачено на чтение существующего кода. Очень немногие из нас настолько привилегированы, что тратят всю или большую часть нашего времени, внедряя свой код, и никогда не работают уже с написанным ранее.
 
-Did you know that researchers who've studied this topic say that 70% of the time we spend maintaining code is just spent reading it to understand it? I find that shocking. 70%. No wonder the global average for a programmer's lines of code written per day is around 5. We spend the other 7 hours and 30 minutes of the day just reading the code to figure out where those 5 lines should go!
+Знаете ли вы, что люди изучающие эту тему, утверждают, что 70% процентов времени поддержки кода это его изучение? Я нахожу это шокирующим. 70%. Неудивительно, что средний показатель написания строк кода программистом в день, составляет около 5. Мы проводим другие 7 часов и 30 минут дня, просто читая код, чтобы выяснить, где эти 5 строк должны быть!
 
-I think we should focus a lot -- a LOT! -- more on the readability of our code. Like, a lot more. And by the way, readability is not about least number of characters. Readability is actually most affected by familiarity (yes, that's been studied, too).
+Я считаю, что мы должны хорошо сосредаточиться! по большей части на читабельности нашего кода. И кстати, читабельность, это не про количество символов. На самом деле на читаемость влияет ознокомление (да, это тоже будет изучено)
 
-So, if we are going to spend more time concerned with making code that will be more readable and understandable, FP turns out to be a really handy pattern in that effort. The principles of FP are well established, deeply studied and vetted, and provably verifiable.
+Итак, если мы собираемся потратить больше времени на создание кода, который будет более читабельным и понятным, FP окажется действительно удобным шаблоном для этих целей. Принципы FP хорошо известны, глубоко изучены и проверены, и доказуемо поддаются проверке.
 
-If we use FP principles, I believe we will create code that is easier to reason about. Once we know these principles, they will be recognizable and familiar in the code, meaning we'll spend less time figuring that part out when we read a piece of code. Our focus will be spent on how all the well-known, established lego pieces are assembled, not on what those lego pieces mean.
+Если мы будем использовать принципы FP, я считаю, что мы создадим код, с которым легче работать. Как только мы узнаем эти принципы, они будут узнаваемы и знакомы в коде, а это означает, что мы потратим меньше времени на то, чтобы выяснить, что делает каждый кусок кода. Наше внимание будет сосредоточено на том, как собираются созданные части lego, а не на том, что означают эти части lego.
 
-FP (at least, without all the terminology weighing it down) is one of the most effective tools for writing readable code. *That* is why it's so important.
+FP (по крайней мере, без учета всей терминологии) является одним из наиболее эффективных инструментов для написания читаемого кода. Вот почему это так важно.
 
 ### Readability Curve
 
