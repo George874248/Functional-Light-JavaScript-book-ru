@@ -6,13 +6,11 @@
 
 Давайте на чистоту: если вы уже не являетесь членом крутого детского клуба FP (я нет!), Выражение вроде: «Монада - всего лишь моноид в категории эндофунторов», не означает что оно бесполезно для нас.
 
-That's not to say the terms are meaning less or that FPrs are bad for using them. Once you graduate from Functional-Light, you'll maybe/hopefully want to study FP more formally, and you'll certainly have plenty of exposure to what they mean and why.
+Это не озночает что терминология малозначна, или что их использование в FP это плохо. После того как вы прочитаете эту книгу вы возможнозахотите изучить FP более формально, и вы наверняка будете знать что они значат и почему.
 
-But I want you to be able to apply some of the fundamentals of FP to your JavaScript *now*, because I believe it will help you write better, more reasonable code.
+Но я хочу чтобы вы могли применить основы FP в вашем JavaScript сейчас, потому что я верю что они помогут вам писать качественный и разумный код.
 
-**To read more about the motivations and perspective behind this book, check out the [Preface](preface.md).**
-
-## Book
+## Книга
 
 [Table of Contents](toc.md)
 
