@@ -1,5 +1,5 @@
 # Functional-Light JavaScript
-# Chapter 1: Why Functional Programming?
+# Глава 1: Почему Функциональное Программирование?
 
 > Functional programmer: (noun) One who names variables "x", names functions "f", and names code patterns "zygohistomorphic prepromorphism"
 >
@@ -7,18 +7,19 @@
 >
 > https://twitter.com/jamesiry/status/598547781515485184
 
-Functional Programming (FP) is not a new concept by any means. It's been around almost the entire history of programming. However -- and I'm not sure it's fair to say, but! -- it sure hasn't seemed like as mainstream of a concept in the overall developer world until perhaps the last few years. I think FP has more been the realm of academics.
+Функциональное программирование (FP) как бы то ни было не является новой концепцией. Оно существовало с самого начала истории  программирования. Однако -- я не уверен что сказать это будет справедливо, но! -- FP не выглядело как основной концепцией разработчиков до последний пары лет. Я думаю, что FP больше относится к ученой сфере.
 
-But that's all changing. A groundswell of interest is growing around FP, not just at the languages level but even in libraries and frameworks. You very well might be reading this text because you've finally realized FP is something you can't ignore any longer. Or maybe you're like me and you've tried to learn FP many times before but struggled to wade through all the terms or mathematical notation.
+Но все меняется. Огромный интерес растет вокруг FP, не только на уровне языка, но даже в библиотеках и фреимверках. Вы заинтересовано читаете, потому что вы наконец поняли, что вы больше не в силах игнорировать FP. Или, может быть, вы похожи на меня, и вы пытались многому научиться в FP, но изо всех сил пытались пробраться через все термины или математические обозначения.
 
-Whatever your reason for reading this book, welcome to the party!
+Какой бы ни была причина, добро пожаловать на вечеринку
 
-## Confidence
+## Уверенность
 
-I have a very simple premise that sort of underlies everything I do as a teacher of software development (in JavaScript): code that you cannot trust is code that you do not understand. And furthermore, if you cannot trust or understand your code, then you can have no confidence whatsoever that the code you write is suitable to the task. You run the program and cross your fingers.
+Я имею очень простую предпосылку которая лежит в основе всего что я делаю в качестве учителя разработки (на JavaScript): код, которому вы не доверяете, это код который вы не понимаете. Кроме того, если вы не доверяете или не понимаете свой код, тогда у вас не может быть никакой уверенности, что вы используете код по назначению. Вы можете запустить программу и скрестить пальцы
 
-What do I mean by trust? I mean that you can verify, by reading, not just running, that you understand what a piece of code *will* do, not just relying on what it *should* do. Perhaps more often than we should, we tend to rely on verification of our program's correctness by running test suites. I don't mean to suggest tests are bad. But I do think we should aspire to be able to understand our code well enough that we know the test suite will pass before it runs.
+Что я понимаю под доверием? Я имею ввиду, что при просмотре кусков кода, вы должны точно знать что они делают, а не полагаться на то, как они казалось бы должны работать. Возможно, чаще, чем мы должны, мы склонны полагаться на проверку правильности нашей программы за счет запуска наборов тестов. Я не говорю что это плохо. Но я думаю, что мы должны стремиться к пониманию кода на столько, чтобы быть уверенными что все тесты пройдут до их запуска.
 
+Я считаю, что методы, составляющие основу FP, сделаны таким образом, 
 I believe the techniques that form the foundation of FP are designed from the mindset of having far more confidence over our programs just by reading them. Someone who understands FP, and who diligently uses it in their programs, will write code that they can read and verify, by the principles they have already proven to be true, that the program will do what they want.
 
 It is my hope that you will begin to develop more confidence in the code you write, and that these functional-light programming principles will begin your journey in that direction.
