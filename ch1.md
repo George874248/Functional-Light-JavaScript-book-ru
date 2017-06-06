@@ -78,7 +78,7 @@ FP совершенно другой подход к тому, как долже
 
 Я считаю более важным знать принцип и механизм работы устройства, чем знать его название. Это не отменяет важность общей терминологии - она несомненно облегчает общение между опытными профессионалами. Но я нахожу это необязательным для начинающего
 
-So I hope this book can focus more on the base concepts and less on the fancy terminology. That's not to say there won't be terminology; there definitely will be. But don't get too wrapped up in the fancier words. Look beyond them to the ideas. That's what this book is trying to be about.
+Поэтому я надеюсь, что эта книга будет направлена на базовые концепции и меньше на причудливую терминологию. Это не говорит о том что ее не будет; она определенна будет. Но не увлекайтесь. Вдумайтесь в их суть. Вот о чем будет эта книга.
 
 I call the less formal practice herein "Functional-Light Programming" because I think where the formalism of true FP suffers is that it can be quite overwhelming if you're not already accustomed to formal thought. I'm not just guessing; this is my own personal story. Even after teaching FP and writing this book, I can still say that the formalism of terms and notation in FP is very, very diffcult for me to process. I've tried, and tried, and I can't seem to get through much of it.
 
