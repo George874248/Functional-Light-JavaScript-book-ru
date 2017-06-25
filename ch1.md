@@ -87,11 +87,13 @@ he less formal practice herein "Functional-Light Programming" because I think wh
 
 Таким образом, в этой книге представлены концепции, на которых я полагаю, основано FP, но приходит к ним, давая вам толчок на скалу, не бросает вас прямо на нее, а дает понять как на нее попасть.
 
-## YAGNI
+## YAGNI - "You Ain't Gonna Need It" (Вам это не понадобится)
 
-If you've been around programming for very long, chances are you've heard the phrase "YAGNI" before: "You Ain't Gonna Need It". This principle primarily comes from extreme programming, and stresses the high risk and cost of building a feature before it's needed.
+Если вы давно в программировании, скорее всего, вы уже слышали фразу "YAGNI": "You Ain't Gonna Need It"(Вам это не понадобится). Этот принцип в основном исходит из экстремального программирования и подчеркивает высокий риск и стоимость написания функции до ее необходимости.
 
-Sometimes we guess we'll need a feature in the future, build it now believing it'll be easier to do as we build other stuff, then realize we guessed wrong and the feature wasn't needed, or needed to be quite different. Other times we guess right, but build a feature too early, and suck up time from the features that are genuinely needed now; we incur an opportunity cost in diluting our energy.
+Иногда мы предполагаем, что нам понадобится функция в будущем, создайте ее сейчас, в надежде, что это будет так же просто как и в создании других вещей, но потом мы понимаем что ошибались, и функция вовсе не нужна, или же она должна быть немного другой. В других случаях мы бываем правы, но создаем функцию слишком рано, и всасываем время из функций, которые действительно необходимы сейчас; Мы берем альтернативные издержки в разбавлении нашей энергии.
+
+ Other times we guess right, but build a feature too early, and suck up time from the features that are genuinely needed now; we incur an opportunity cost in diluting our energy.
 
 YAGNI challenges us to remember: even if it's counter intuitive in a situation, we often should postpone building something until it's presently needed. We tend to exaggerate our mental estimates of the future refactoring cost of adding it later when it is needed. Odds are, it won't be as hard to do later as we might assume.
 
