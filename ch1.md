@@ -80,13 +80,12 @@ FP совершенно другой подход к тому, как долже
 
 Поэтому я надеюсь, что эта книга будет направлена на базовые концепции и меньше на причудливую терминологию. Это не говорит о том что ее не будет; она определенна будет. Но не увлекайтесь. Вдумайтесь в их суть. Вот о чем будет эта книга.
 
-Я называю менее формальную практику здесь «Программирование функционального света», потому что я думаю, где страдает формализм истинного FP, так это то, что он может быть весьма подавляющим, если вы еще не привыкли к формальному мышлению. Я не просто догадываюсь; Это моя личная история. Даже после обучения FP и написания этой книги я все же могу сказать, что формализм терминов и обозначений в FP очень, очень сложно для меня. Я пробовал и пытался, и, похоже, я не могу справиться с этим.
+he less formal practice herein "Functional-Light Programming" because I think where the formalism of true FP suffers is that it can be quite overwhelming if you're not already accustomed to formal thought. Я не гадаю; Это мой опыт. Даже после обучения FP и написания этой книги, я все же могу сказать, что формализм терминов и обозначений в FP очень, очень сложно для меня. Я пытался и пытался, и похоже, что я не могу с этим справиться.
 
-I call the less formal practice herein "Functional-Light Programming" because I think where the formalism of true FP suffers is that it can be quite overwhelming if you're not already accustomed to formal thought. I'm not just guessing; this is my own personal story. Even after teaching FP and writing this book, I can still say that the formalism of terms and notation in FP is very, very diffcult for me to process. I've tried, and tried, and I can't seem to get through much of it.
+Я знаю много программистов функциоального стиля которые верят, что формализм помогает им в изучении. Но я думаю, что там есть утес, где это только начинает походить на правду когда вы достигнете определенного комфорта с формализмом. Если вы распологаете основами математики или имеете опыт в CS (Mathematics for Computer Science), это может облегчить вам задачу. Но некоторые из нас этого не делают, и как бы мы ни старались, формализм продолжает мешать.
 
-I know many FPers who believe that the formalism itself helps learning. But I think there's clearly a cliff where that only becomes true once you reach a certain comfort with the formalism. If you happen to already have a math background or even some flavors of CS experience, this may come more naturally to you. But some of us don't, and no matter how hard we try, the formalism keeps getting in the way.
 
-So this book introduces the concepts that I believe FP is built on, but comes at it by giving you a boost to climb up the cliff wall rather than throwing you straight at it to figure out how to climb as you go.
+Таким образом, в этой книге представлены концепции, на которых я полагаю, основано FP, но приходит к ним, давая вам толчок на скалу, не бросает вас прямо на нее, а дает понять как на нее попасть.
 
 ## YAGNI
 
