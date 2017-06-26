@@ -91,33 +91,31 @@ he less formal practice herein "Functional-Light Programming" because I think wh
 
 Если вы давно в программировании, скорее всего, вы уже слышали фразу "YAGNI": "You Ain't Gonna Need It"(Вам это не понадобится). Этот принцип в основном исходит из экстремального программирования и подчеркивает высокий риск и стоимость написания функции до ее необходимости.
 
-Иногда мы предполагаем, что нам понадобится функция в будущем, создайте ее сейчас, в надежде, что это будет так же просто как и в создании других вещей, но потом мы понимаем что ошибались, и функция вовсе не нужна, или же она должна быть немного другой. В других случаях мы бываем правы, но создаем функцию слишком рано, и всасываем время из функций, которые действительно необходимы сейчас; Мы берем альтернативные издержки в разбавлении нашей энергии.
+Иногда мы предполагаем, что нам понадобится функция в будущем, создайте ее сейчас, в надежде, что это будет так же просто как и в создании других вещей, но потом мы понимаем что ошибались, и функция вовсе не нужна, или же она должна быть немного другой. Other times we guess right, but build a feature too early, and suck up time from the features that are genuinely needed now; we incur an opportunity cost in diluting our energy.
 
- Other times we guess right, but build a feature too early, and suck up time from the features that are genuinely needed now; we incur an opportunity cost in diluting our energy.
+YANGI заставляет нас помнить: даже если это противоречит интуиции, мы часто должны откладывать написание чего-либо, пока оно не понадобится. Мы склонны преувеличивать нашу оценку времени рефакторинга, делая его по необходимости. Возможно это займет меньше времени, чем мы думаем. 
 
-YAGNI challenges us to remember: even if it's counter intuitive in a situation, we often should postpone building something until it's presently needed. We tend to exaggerate our mental estimates of the future refactoring cost of adding it later when it is needed. Odds are, it won't be as hard to do later as we might assume.
+Т.к. это относится к FP, я бы дал такой совет: в этом тексте будет много интересных и убедительных паттернов, но только вы найдете паттерн который можно применить, не бегите сломя голову его внедрять, возможно, это не обязательно.
 
-As it applies to functional programming, I would give this admonition: there will be plenty of interesting and compelling patterns discussed in this text, but just because you find some pattern exciting to apply, it may not necessarily be appropriate to do so in a given part of your code.
+Это - то, где я буду отличаться от многих традиционных программистов функционального стиля: ты не должен писать постоянно функциональный код, просто потому что ты умеешь это делать. Тем более что есть много путей решения проблемы, хотя возможно вы знаете более подходящий и умный подход, который к тому же более расширяемый, но более простое решение может оказаться более чем достаточным.
 
-This is where I will differ from many more formal FPers: just because you *can* FP something doesn't mean you *should* FP it. Moreover, there are many ways to slice a problem, and even though you may have learned a more sophisticated approach that is more "future-proof" to maintenance and extensibility, a simpler FP pattern might be more than sufficient in that spot.
+В общем, я бы посоветовал искать балас в том что вы пишите, и быть более конcервативным в выборе концепций FP, поскольку у вас есть ключ к инструментам. Изначальный принцип YAGNI гласит: если определенный паттерн или абстракция может сделать кусок кода более читаемым или сделает его более изошренным, то возможно это не оправданно. 
 
-Generally, I'd recommend to seek balance in what you code, and to be conservative in your application of FP concepts as you get the hang of things. Default to the YAGNI principle in deciding if a certain pattern or abstraction will help that part of the code be more readable or if it's just introducing more clever sophistication that isn't (yet) warranted.
-
-> Reminder, any extensibility point that’s never used isn’t just wasted effort, it’s likely to also get in your way as well
+> Напоминание, любые приобретенные знания которыми вы не пользуетесь - это не обязательно напрасный труд, возможноэто это вам пригодится
 >
 > Jeremy D. Miller @jeremydmiller 2/20/15
 >
 > https://twitter.com/jeremydmiller/status/568797862441586688
 
-Remember, every single line of code you write has a reader cost associated with it. That reader may be another team member, or even your future self. Neither of those readers will be impressed with overly clever unnecessary sophistication to show off your FP agility.
+Помните, что каждая строка кода, который вы пишете, имеет связанную с ним стоимость чтения. Этот читатель может быть другим членом команды или даже им будете вы в будущем. Ни один из этих читателей не оценит чторезмерно умный и изошренный код, чтобы показать какой вы хорошой программист функционального стиля.
 
-The best code is the code that is most readable in the future because it strikes exactly the right balance between what it can/should be (idealism) and what it must be (pragmatism).
+Лучший код - это код, который наиболее читабелен в будущем, потому что он точно соответствует правильному балансу между тем, что он может/должен делать, и каким он должен быть.
 
-## Resources
+## Источники
 
-I have drawn on a great many different resources to be able to compose this text. I believe you too may benefit from them, so I wanted to take a moment to point them out.
+Я собрал множество материала чтобы написать эту книгу. Я верю что они вам помогут, поэтому я бы хотел поделиться ими.
 
-### Books
+### Книги
 
 Some FP/JavaScript books that you should definitely read:
 
@@ -125,9 +123,9 @@ Some FP/JavaScript books that you should definitely read:
 * [JavaScript Allongé](https://leanpub.com/javascript-allonge) by [Reg Braithwaite](https://twitter.com/raganwald)
 * [Functional JavaScript](http://shop.oreilly.com/product/0636920028857.do) by [Michael Fogus](https://twitter.com/fogus)
 
-### Blogs/Sites
+### Блоги/Сайты
 
-Some other authors and content you should check out:
+Некоторые другие авторы и материалы, которые вы должны проверить: 
 
 * [Fun Fun Function Videos](https://www.youtube.com/watch?v=BMUiFMZr7vk) by [Mattias P Johansson](https://twitter.com/mpjme)
 * [Awesome FP JS](https://github.com/stoeffel/awesome-fp-js)
@@ -139,9 +137,9 @@ Some other authors and content you should check out:
 * [Functional Programming Jargon](https://github.com/hemanth/functional-programming-jargon#functional-programming-jargon)
 * [Functional Programming Exercises](https://github.com/InceptionCode/Functional-Programming-Exercises)
 
-### Libraries
+### Библиотеки
 
-The code snippets in this book do not use libraries. Each operation that we discover, we'll derive how to implement it in standalone, plain ol' JavaScript. However, as you begin to build more of your real code with FP, you'll quickly want a library to provide optimized and highly reliable versions of these commonly accepted utilities.
+Представленный книгой код, не используется в библиотеках. Мы будем реализовывать каждую найденную нами операцию на нативном JavaScript. Однако, когда вы начнете писать больше функционального кода, вы сразу захотите библиотеку которая обеспечит оптимизированную и более надежную версию этих утилит. 
 
 By the way, you'll want to make sure you check the documentation for the library functions you use to make sure you know how they work. There will be a lot of similarities in many of them to the code we build on in this text, but there will undoubtedly be some differences, even between popular libraries.
 
