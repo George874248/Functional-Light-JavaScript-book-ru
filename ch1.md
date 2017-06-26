@@ -141,17 +141,17 @@ Some FP/JavaScript books that you should definitely read:
 
 Представленный книгой код, не используется в библиотеках. Мы будем реализовывать каждую найденную нами операцию на нативном JavaScript. Однако, когда вы начнете писать больше функционального кода, вы сразу захотите библиотеку которая обеспечит оптимизированную и более надежную версию этих утилит. 
 
-By the way, you'll want to make sure you check the documentation for the library functions you use to make sure you know how they work. There will be a lot of similarities in many of them to the code we build on in this text, but there will undoubtedly be some differences, even between popular libraries.
+Кстати, вы захотите узнать по документации библиотеки, как функции, которые вы используете устроены. Будет много сходств с кодом который вы найдете в книге, но несомненно будут и различия, даже между популярными библиотеками.
 
-Here are a few popular FP libraries for JavaScript that are a great place to start your exploration with:
+Вот несколько популярных библиотек FP для JavaScript с которых следует начать путешествие:
 
 * [Ramda](http://ramdajs.com)
 * [lodash/fp](https://github.com/lodash/lodash/wiki/FP-Guide)
 * [functional.js](http://functionaljs.com/)
 * [Immutable.js](https://github.com/facebook/immutable-js)
 
-Appendix C illustrates some of these libraries using various examples from the text.
+Приложение C иллюстрирует некоторые из этих библиотек, используя различные примеры из текста.
 
-## Summary
+## Коротко
 
-This is Functional-Light JavaScript. The goal is to learn to communicate with our code but not suffocate under mountains of notation or terminology to get there. I hope this book jumpstarts your journey!
+Это "Функциональный-Свет" JavaScript. Цель состоит в том, чтобы научиться взаимодействовать с нашим кодом, и не задохнуться под горами обозначений или терминологии по пути. Я надеюсь, эта книга окажет влияние на ваше путешествие
