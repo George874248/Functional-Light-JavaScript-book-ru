@@ -1,5 +1,5 @@
 # Functional-Light JavaScript
-# Chapter 2: Foundations of Functional Functions
+# Глава 2: Основы Функиональных Функций
 
 Functional Programming is **not just programming with the `function` keyword.** Oh if only it was that easy, I could end the book right here! But importantly, the function really *is* at the center of FP. And it's how we use functions that makes our code *functional*.
 
